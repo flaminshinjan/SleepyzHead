@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */; };
+		D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A52A15F5F7004DE56B /* ContentView.swift */; };
+		D9D873A82A15F5F8004DE56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D873A72A15F5F8004DE56B /* Assets.xcassets */; };
+		D9D873AB2A15F5F8004DE56B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D873AA2A15F5F8004DE56B /* Preview Assets.xcassets */; };
+		D9D873B52A15F5F9004DE56B /* SleepyzHeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873B42A15F5F9004DE56B /* SleepyzHeadTests.swift */; };
+		D9D873BF2A15F5F9004DE56B /* SleepyzHeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873BE2A15F5F9004DE56B /* SleepyzHeadUITests.swift */; };
+		D9D873C12A15F5F9004DE56B /* SleepyzHeadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873C02A15F5F9004DE56B /* SleepyzHeadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D873B12A15F5F9004DE56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D873982A15F5F7004DE56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D8739F2A15F5F7004DE56B;
+			remoteInfo = SleepyzHead;
+		};
+		D9D873BB2A15F5F9004DE56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D873982A15F5F7004DE56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D8739F2A15F5F7004DE56B;
+			remoteInfo = SleepyzHead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9D873A02A15F5F7004DE56B /* SleepyzHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyzHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadApp.swift; sourceTree = "<group>"; };
+		D9D873A52A15F5F7004DE56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9D873A72A15F5F8004DE56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D873AA2A15F5F8004DE56B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D873B02A15F5F9004DE56B /* SleepyzHeadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyzHeadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D873B42A15F5F9004DE56B /* SleepyzHeadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadTests.swift; sourceTree = "<group>"; };
+		D9D873BA2A15F5F9004DE56B /* SleepyzHeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyzHeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D873BE2A15F5F9004DE56B /* SleepyzHeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadUITests.swift; sourceTree = "<group>"; };
+		D9D873C02A15F5F9004DE56B /* SleepyzHeadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D8739D2A15F5F7004DE56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873AD2A15F5F9004DE56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873B72A15F5F9004DE56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D873972A15F5F7004DE56B = {
+			isa = PBXGroup;
+			children = (
+				D9D873A22A15F5F7004DE56B /* SleepyzHead */,
+				D9D873B32A15F5F9004DE56B /* SleepyzHeadTests */,
+				D9D873BD2A15F5F9004DE56B /* SleepyzHeadUITests */,
+				D9D873A12A15F5F7004DE56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D873A12A15F5F7004DE56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D873A02A15F5F7004DE56B /* SleepyzHead.app */,
+				D9D873B02A15F5F9004DE56B /* SleepyzHeadTests.xctest */,
+				D9D873BA2A15F5F9004DE56B /* SleepyzHeadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D873A22A15F5F7004DE56B /* SleepyzHead */ = {
+			isa = PBXGroup;
+			children = (
+				D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */,
+				D9D873A52A15F5F7004DE56B /* ContentView.swift */,
+				D9D873A72A15F5F8004DE56B /* Assets.xcassets */,
+				D9D873A92A15F5F8004DE56B /* Preview Content */,
+			);
+			path = SleepyzHead;
+			sourceTree = "<group>";
+		};
+		D9D873A92A15F5F8004DE56B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9D873AA2A15F5F8004DE56B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9D873B32A15F5F9004DE56B /* SleepyzHeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D873B42A15F5F9004DE56B /* SleepyzHeadTests.swift */,
+			);
+			path = SleepyzHeadTests;
+			sourceTree = "<group>";
+		};
+		D9D873BD2A15F5F9004DE56B /* SleepyzHeadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D873BE2A15F5F9004DE56B /* SleepyzHeadUITests.swift */,
+				D9D873C02A15F5F9004DE56B /* SleepyzHeadUITestsLaunchTests.swift */,
+			);
+			path = SleepyzHeadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D8739F2A15F5F7004DE56B /* SleepyzHead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D873C42A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHead" */;
+			buildPhases = (
+				D9D8739C2A15F5F7004DE56B /* Sources */,
+				D9D8739D2A15F5F7004DE56B /* Frameworks */,
+				D9D8739E2A15F5F7004DE56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepyzHead;
+			productName = SleepyzHead;
+			productReference = D9D873A02A15F5F7004DE56B /* SleepyzHead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D873AF2A15F5F9004DE56B /* SleepyzHeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D873C72A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHeadTests" */;
+			buildPhases = (
+				D9D873AC2A15F5F9004DE56B /* Sources */,
+				D9D873AD2A15F5F9004DE56B /* Frameworks */,
+				D9D873AE2A15F5F9004DE56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D873B22A15F5F9004DE56B /* PBXTargetDependency */,
+			);
+			name = SleepyzHeadTests;
+			productName = SleepyzHeadTests;
+			productReference = D9D873B02A15F5F9004DE56B /* SleepyzHeadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D873B92A15F5F9004DE56B /* SleepyzHeadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D873CA2A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHeadUITests" */;
+			buildPhases = (
+				D9D873B62A15F5F9004DE56B /* Sources */,
+				D9D873B72A15F5F9004DE56B /* Frameworks */,
+				D9D873B82A15F5F9004DE56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D873BC2A15F5F9004DE56B /* PBXTargetDependency */,
+			);
+			name = SleepyzHeadUITests;
+			productName = SleepyzHeadUITests;
+			productReference = D9D873BA2A15F5F9004DE56B /* SleepyzHeadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D873982A15F5F7004DE56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D9D8739F2A15F5F7004DE56B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D9D873AF2A15F5F9004DE56B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9D8739F2A15F5F7004DE56B;
+					};
+					D9D873B92A15F5F9004DE56B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D9D8739F2A15F5F7004DE56B;
+					};
+				};
+			};
+			buildConfigurationList = D9D8739B2A15F5F7004DE56B /* Build configuration list for PBXProject "SleepyzHead" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D873972A15F5F7004DE56B;
+			productRefGroup = D9D873A12A15F5F7004DE56B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D8739F2A15F5F7004DE56B /* SleepyzHead */,
+				D9D873AF2A15F5F9004DE56B /* SleepyzHeadTests */,
+				D9D873B92A15F5F9004DE56B /* SleepyzHeadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D8739E2A15F5F7004DE56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D873AB2A15F5F8004DE56B /* Preview Assets.xcassets in Resources */,
+				D9D873A82A15F5F8004DE56B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873AE2A15F5F9004DE56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873B82A15F5F9004DE56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D8739C2A15F5F7004DE56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */,
+				D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873AC2A15F5F9004DE56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D873B52A15F5F9004DE56B /* SleepyzHeadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D873B62A15F5F9004DE56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D873BF2A15F5F9004DE56B /* SleepyzHeadUITests.swift in Sources */,
+				D9D873C12A15F5F9004DE56B /* SleepyzHeadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D873B22A15F5F9004DE56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D8739F2A15F5F7004DE56B /* SleepyzHead */;
+			targetProxy = D9D873B12A15F5F9004DE56B /* PBXContainerItemProxy */;
+		};
+		D9D873BC2A15F5F9004DE56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D8739F2A15F5F7004DE56B /* SleepyzHead */;
+			targetProxy = D9D873BB2A15F5F9004DE56B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9D873C22A15F5F9004DE56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D873C32A15F5F9004DE56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D873C52A15F5F9004DE56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepyzHead/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D873C62A15F5F9004DE56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepyzHead/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9D873C82A15F5F9004DE56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyzHead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepyzHead";
+			};
+			name = Debug;
+		};
+		D9D873C92A15F5F9004DE56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyzHead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepyzHead";
+			};
+			name = Release;
+		};
+		D9D873CB2A15F5F9004DE56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyzHead;
+			};
+			name = Debug;
+		};
+		D9D873CC2A15F5F9004DE56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADG.SleepyzHeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyzHead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D8739B2A15F5F7004DE56B /* Build configuration list for PBXProject "SleepyzHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D873C22A15F5F9004DE56B /* Debug */,
+				D9D873C32A15F5F9004DE56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D873C42A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D873C52A15F5F9004DE56B /* Debug */,
+				D9D873C62A15F5F9004DE56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D873C72A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D873C82A15F5F9004DE56B /* Debug */,
+				D9D873C92A15F5F9004DE56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D873CA2A15F5F9004DE56B /* Build configuration list for PBXNativeTarget "SleepyzHeadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D873CB2A15F5F9004DE56B /* Debug */,
+				D9D873CC2A15F5F9004DE56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D873982A15F5F7004DE56B /* Project object */;
+}
