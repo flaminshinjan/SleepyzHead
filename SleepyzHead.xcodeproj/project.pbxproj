@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D9267D2F2A1F2B2F00AA396C /* CalendarGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */; };
+		D9267D322A1F885600AA396C /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = D9267D312A1F885600AA396C /* RiveRuntime */; };
+		D9267D342A1F891C00AA396C /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9267D332A1F891C00AA396C /* AnimationView.swift */; };
+		D9267D442A1F8F6200AA396C /* loading_dots in Resources */ = {isa = PBXBuildFile; fileRef = D9267D432A1F8F6200AA396C /* loading_dots */; };
+		D9267D452A1F8F6200AA396C /* loading_dots in Resources */ = {isa = PBXBuildFile; fileRef = D9267D432A1F8F6200AA396C /* loading_dots */; };
+		D9267D462A1F8F6200AA396C /* loading_dots in Resources */ = {isa = PBXBuildFile; fileRef = D9267D432A1F8F6200AA396C /* loading_dots */; };
 		D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */; };
 		D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A52A15F5F7004DE56B /* ContentView.swift */; };
 		D9D873A82A15F5F8004DE56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D873A72A15F5F8004DE56B /* Assets.xcassets */; };
@@ -36,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGrid.swift; sourceTree = "<group>"; };
+		D9267D332A1F891C00AA396C /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		D9267D432A1F8F6200AA396C /* loading_dots */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading_dots; sourceTree = "<group>"; };
 		D9D873A02A15F5F7004DE56B /* SleepyzHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyzHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadApp.swift; sourceTree = "<group>"; };
 		D9D873A52A15F5F7004DE56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9267D322A1F885600AA396C /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +106,9 @@
 			children = (
 				D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */,
 				D9D873A52A15F5F7004DE56B /* ContentView.swift */,
+				D9267D332A1F891C00AA396C /* AnimationView.swift */,
 				D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */,
+				D9267D432A1F8F6200AA396C /* loading_dots */,
 				D9D873A72A15F5F8004DE56B /* Assets.xcassets */,
 				D9D873A92A15F5F8004DE56B /* Preview Content */,
 			);
@@ -146,6 +156,9 @@
 			dependencies = (
 			);
 			name = SleepyzHead;
+			packageProductDependencies = (
+				D9267D312A1F885600AA396C /* RiveRuntime */,
+			);
 			productName = SleepyzHead;
 			productReference = D9D873A02A15F5F7004DE56B /* SleepyzHead.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +231,9 @@
 				Base,
 			);
 			mainGroup = D9D873972A15F5F7004DE56B;
+			packageReferences = (
+				D9267D302A1F885600AA396C /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = D9D873A12A15F5F7004DE56B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D873AB2A15F5F8004DE56B /* Preview Assets.xcassets in Resources */,
+				D9267D442A1F8F6200AA396C /* loading_dots in Resources */,
 				D9D873A82A15F5F8004DE56B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9267D452A1F8F6200AA396C /* loading_dots in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9267D462A1F8F6200AA396C /* loading_dots in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9267D2F2A1F2B2F00AA396C /* CalendarGrid.swift in Sources */,
+				D9267D342A1F891C00AA396C /* AnimationView.swift in Sources */,
 				D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */,
 				D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */,
 			);
@@ -581,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9267D302A1F885600AA396C /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9267D312A1F885600AA396C /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9267D302A1F885600AA396C /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9D873982A15F5F7004DE56B /* Project object */;
 }
