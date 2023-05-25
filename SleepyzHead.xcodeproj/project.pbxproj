@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9267D2F2A1F2B2F00AA396C /* CalendarGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */; };
 		D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */; };
 		D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D873A52A15F5F7004DE56B /* ContentView.swift */; };
 		D9D873A82A15F5F8004DE56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D873A72A15F5F8004DE56B /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGrid.swift; sourceTree = "<group>"; };
 		D9D873A02A15F5F7004DE56B /* SleepyzHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyzHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyzHeadApp.swift; sourceTree = "<group>"; };
 		D9D873A52A15F5F7004DE56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				D9D873A32A15F5F7004DE56B /* SleepyzHeadApp.swift */,
 				D9D873A52A15F5F7004DE56B /* ContentView.swift */,
+				D9267D2E2A1F2B2F00AA396C /* CalendarGrid.swift */,
 				D9D873A72A15F5F8004DE56B /* Assets.xcassets */,
 				D9D873A92A15F5F8004DE56B /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9267D2F2A1F2B2F00AA396C /* CalendarGrid.swift in Sources */,
 				D9D873A62A15F5F7004DE56B /* ContentView.swift in Sources */,
 				D9D873A42A15F5F7004DE56B /* SleepyzHeadApp.swift in Sources */,
 			);
